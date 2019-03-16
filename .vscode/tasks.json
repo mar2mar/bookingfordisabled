@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/b4dp.api/b4dp.api.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

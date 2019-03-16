@@ -8,5 +8,6 @@ namespace b4dp.api.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) {  }
 
         public DbSet<Value> Value {get; set;}
+        public DbSet<User> User { get; set; }
     }
 }
